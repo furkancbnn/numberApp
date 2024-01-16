@@ -1,33 +1,17 @@
-![](randomNumbApp.gif)
+![](public/randomNumbApp.gif)
 
+Bu projenin temel amacı, React kullanarak basit bir sayfa üzerinde kullanıcının belirlediği bir aralık içinde rastgele sayı üretmek. Projede birkaç ana öğe bulunmaktadır:
 
-# Rastgele Sayı Oluşturucu Uygulaması
+1. **Min ve Max Giriş Alanları:**
+   - Kullanıcı, sayfa üzerindeki giriş alanları aracılığıyla rastgele sayının üretileceği minimum ve maksimum değerleri belirleyebilir.
 
-Bu basit bir React uygulamasıdır ve belirli bir aralıkta rastgele sayılar üretir.
+2. **Rastgele Sayı Gösterimi:**
+   - Sayfa üzerindeki bir bölümde, her butona tıklandığında güncellenen bir rastgele sayı gösterilmektedir.
 
-## Özellikler
+3. **"Get Random Number" Butonu:**
+   - Kullanıcı, belirlediği aralık içinde rastgele bir sayı üretmek için bu butona tıklayabilir. Bu butona tıklanması, React state kullanılarak sayfa üzerindeki rastgele sayının güncellenmesini sağlar.
 
-- Minimum ve maksimum değerleri belirleyebilirsiniz.
-- "Rastgele Sayı Al" düğmesine tıklayarak belirtilen aralıkta rastgele bir sayı üretebilirsiniz.
-- Oluşturulan rastgele sayı sayfa üzerinde görüntülenir.
+4. **Stil ve Tasarım:**
+   - Proje, CSS dosyaları aracılığıyla belirli bir tasarım ve düzen içerir. Bu tasarım, sayfanın kullanıcı dostu ve anlaşılır olmasına yönelik düzenlemeler içerir.
 
-## Nasıl Kullanılır
-
-1. Giriş alanlarına minimum ve maksimum değerleri girin.
-2. "Rastgele Sayı Al" düğmesine tıklayın.
-3. Oluşturulan rastgele sayı görüntülenir.
-
-## Kullanılan Teknolojiler
-
-- React
-- JavaScript
-
-## Başlangıç
-
-1. Depoyu klonlayın.
-2. Bağımlılıkları `npm install` komutuyla yükleyin.
-3. Uygulamayı `npm start` komutuyla çalıştırın.
-
-Katkıda bulunmaktan çekinmeyin ve uygulamayı geliştirmek için önerilerde bulunun!
-
-
+Proje, React'ta fonksiyonel bir bileşen olan `App` bileşeni içinde bulunmaktadır. State yönetimi için React Hooks'un `useState` fonksiyonu kullanılmıştır. Proje, temel bir React uygulamasını oluşturmak ve temel React kavramlarını anlamak için uygun bir örnektir.
